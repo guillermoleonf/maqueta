@@ -1,0 +1,100 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(176, 176, 176);
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0%;
+}
+.contenido{
+    width: 80%;
+    max-width: 850px;
+    margin:0 auto;
+}
+.header{
+    background: hsl(238, 45%, 39%);
+    color:white;
+    padding: 2rem 0;
+}
+    .header a {
+        color:whitesmoke;
+        text-decoration: none;
+    }
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegacion ul li {
+    display: inline-block;
+}
+    .navegacion ul li a{
+        display: block;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .navegacion ul li a:hover{
+        background:  hsl(238, 38%, 55%);
+    }
+.pie-pagina{
+    width: 100%;
+    background-color:  hsl(238, 45%, 39%);
+}
+.pie-pagina .general{
+    width: 100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding: 0px 0px;
+    }
+    .pie-pagina .general .logo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie-pagina .general .logo a{
+        width:250px ;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .pie-pagina .general .acerca-de h2 {
+        color: aliceblue;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .pie-pagina .general .acerca-de p{
+        color: aliceblue;
+    }
+    .pie-pagina  .Redes h2{
+        color: aliceblue;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .pie-pagina  .Redes .redes-social3  a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: aliceblue;
+        margin-right: 10px;
+        background-color: hsl(238, 38%, 55%) ;
+        text-align: center;
+         }
+
+         .pie-pagina  .Redes .redes-social3  a:hover{
+            color: aqua;
+         }
+.pie-pagina2{
+    text-align: center;
+    color: aliceblue;
+
+}
